@@ -1,0 +1,53 @@
+@import url("https://cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
+.title-1 {
+    font-family: "ALK Life", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+.title-2 {
+    font-family: 'ALK Rex Bold';
+}
+.descr {
+    font-family: 'Poppins';
+    text-indent: 30px;
+    line-height: 40px;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+
+
+/* flexbox */
+.wraper-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* flexbox practice */
+.container {
+    width: 1336px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+}
+.block {
+    width: 310px;
+    height: 430px;
+    background-color: lightpink;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 908px;
+    align-content: space-between;
+}
